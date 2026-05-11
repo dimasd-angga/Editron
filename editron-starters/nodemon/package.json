@@ -2,7 +2,7 @@
   "name": "nodemon-starter",
   "private": true,
   "scripts": {
-    "start": "node run.js"
+    "start": "node init && node run.js"
   },
   "dependencies": {
     "nodemon": "^2.0.22"
