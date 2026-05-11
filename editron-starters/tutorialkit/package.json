@@ -5,10 +5,10 @@
   "private": true,
   "scripts": {
     "astro": "astro",
-    "build": "astro check && astro build",
-    "dev": "astro dev",
+    "build": "node init && astro check && astro build",
+    "dev": "node init && astro dev",
     "preview": "astro preview",
-    "start": "astro dev"
+    "start": "node init && astro dev"
   },
   "dependencies": {
     "@tutorialkit/components-react": "0.0.1-alpha.22",

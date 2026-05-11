@@ -8,6 +8,6 @@
     "koa-pino-logger": "^3.0.0"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node init && node index.js"
   }
 }
