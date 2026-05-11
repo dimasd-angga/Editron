@@ -1,0 +1,24 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "docs/open-source-maintainer-files",
+    "fix/issue-47-centralize-webcontainer-boot-state-with-",
+    "fix/issue-8-clean-up-dead-code-and-unused-state-in-t",
+    "main",
+    "test/setup-vitest"
+  ],
+  "parent": {
+    "docs/open-source-maintainer-files": "main",
+    "fix/issue-47-centralize-webcontainer-boot-state-with-": "main",
+    "fix/issue-8-clean-up-dead-code-and-unused-state-in-t": "main",
+    "main": null,
+    "test/setup-vitest": "main"
+  },
+  "order": [
+    "main",
+    "docs/open-source-maintainer-files",
+    "fix/issue-47-centralize-webcontainer-boot-state-with-",
+    "fix/issue-8-clean-up-dead-code-and-unused-state-in-t",
+    "test/setup-vitest"
+  ]
+}

@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"next dev --turbopack\" \"npm run start:collab\"",
-    "build": "next build",
-    "start": "concurrently \"next start\" \"npm run start:collab\"",
+    "dev": "node api.js && concurrently \"next dev --turbopack\" \"npm run start:collab\"",
+    "build": "node api.js && next build",
+    "start": "node api.js && concurrently \"next start\" \"npm run start:collab\"",
     "start:collab": "npx tsx server/collab.ts",
     "lint": "eslint",
     "test": "node tests/smoke/repository.test.mjs",
