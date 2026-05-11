@@ -16,8 +16,8 @@
     "threejs-vue"
   ],
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc && vite build",
+    "dev": "node init && vite",
+    "build": "node init && vue-tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
